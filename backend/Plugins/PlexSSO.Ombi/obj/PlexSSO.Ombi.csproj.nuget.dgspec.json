@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Matthew\\Documents\\Development\\PlexSSOv2\\backend\\Plugins\\PlexSSO.Ombi\\PlexSSO.Ombi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Matthew\\Documents\\Development\\PlexSSOv2\\backend\\PlexSSO.Common\\PlexSSO.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Development\\PlexSSOv2\\backend\\PlexSSO.Common\\PlexSSO.Common.csproj",
+        "projectName": "PlexSSO.Common",
+        "projectPath": "C:\\Users\\Matthew\\Documents\\Development\\PlexSSOv2\\backend\\PlexSSO.Common\\PlexSSO.Common.csproj",
+        "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matthew\\Documents\\Development\\PlexSSOv2\\backend\\PlexSSO.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Matthew\\Documents\\Development\\PlexSSOv2\\backend\\Plugins\\PlexSSO.Ombi\\PlexSSO.Ombi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Development\\PlexSSOv2\\backend\\Plugins\\PlexSSO.Ombi\\PlexSSO.Ombi.csproj",
+        "projectName": "PlexSSO.Ombi",
+        "projectPath": "C:\\Users\\Matthew\\Documents\\Development\\PlexSSOv2\\backend\\Plugins\\PlexSSO.Ombi\\PlexSSO.Ombi.csproj",
+        "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Matthew\\Documents\\Development\\PlexSSOv2\\backend\\Plugins\\PlexSSO.Ombi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Matthew\\Documents\\Development\\PlexSSOv2\\backend\\PlexSSO.Common\\PlexSSO.Common.csproj": {
+                "projectPath": "C:\\Users\\Matthew\\Documents\\Development\\PlexSSOv2\\backend\\PlexSSO.Common\\PlexSSO.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
