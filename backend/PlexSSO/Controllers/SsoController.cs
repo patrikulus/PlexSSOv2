@@ -17,10 +17,16 @@ namespace PlexSSO.Controllers
         }
 
         [HttpGet]
-        public SsoResponse Get()
+        public ActionResult<SsoResponse> Get()
         {
             var response = _authValidator.ValidateAuthenticationStatus(Identity, ServiceName, ServiceUri);
             Response.StatusCode = response.Status;
+
+            if (response.AccessBlocked && ServiceName != null)
+            {
+                return LocalRedirect($"/{ServiceName}");
+            }
+
             return response;
         }
     }
